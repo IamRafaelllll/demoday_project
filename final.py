@@ -39,7 +39,7 @@ options = [
 "Malcolm X"
 ]
 
-heroes = {'Home Page': 'HomePage.jpg','Rosa Parks': 'HomegirlRosa.jpg', 'MLK': 'HomeboyMLK.jpg', 'Hariet Tubman': 'HomegirlHariet.jpg', 'Sojourner Truth': 'HomegirlTruth.jpg', 'Malcolm X': 'HomeboyMalcolm.jpg'}
+heroes = {'Home Page': './assets/HomePage.jpg','Rosa Parks': './assets/HomegirlRosa.jpg', 'MLK': './assets/HomeboyMLK.jpg', 'Hariet Tubman': './assets/HomegirlHariet.jpg', 'Sojourner Truth': './assets/HomegirlTruth.jpg', 'Malcolm X': './assets/HomeboyMalcolm.jpg'}
 
 heroes_information = {'Rosa Parks': 'Rosa Parks Information', 'MLK': 'MLK Information', 'Hariet Tubman': 'Hariet Tubman Information', 'Sojourner Truth': 'Sojourner Truth Information', 'Malcolm X': 'Malcolm X Information'}
 
