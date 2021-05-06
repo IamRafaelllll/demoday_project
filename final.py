@@ -16,8 +16,8 @@ def changeimage(*args):
 def writeimage(*args):
     info = heroes_information[variable.get()]
     print(info)
-    T = tk.Text(root, HEIGHT = 50, WIDTH = 200)
-    T.insert(tk.END, info)
+    # T = tk.Text(root, HEIGHT = 50, WIDTH = 200)
+    # T.insert(tk.END, info)
 
 
 
@@ -41,7 +41,7 @@ options = [
 
 heroes = {'Home Page': './assets/HomePage.jpg','Rosa Parks': './assets/HomegirlRosa.jpg', 'MLK': './assets/HomeboyMLK.jpg', 'Hariet Tubman': './assets/HomegirlHariet.jpg', 'Sojourner Truth': './assets/HomegirlTruth.jpg', 'Malcolm X': './assets/HomeboyMalcolm.jpg'}
 
-heroes_information = {'Rosa Parks': 'Rosa Parks Information', 'MLK': 'MLK Information', 'Hariet Tubman': 'Hariet Tubman Information', 'Sojourner Truth': 'Sojourner Truth Information', 'Malcolm X': 'Malcolm X Information'}
+heroes_information = {'Rosa Parks': 'Rosa Louise Parks was a civil rights activist born on February 4th, 1913 in Tuskegee Alabama. She was born at a time where people had preconceived thoughts and labels on people who looked like her. Because of these differences in mindsets, it held her back and made her want to stand against the system. Parks was well respected in her community and many people looked up to her.  She worked as a seamstress until she joined the Montgomery chapter for the NAACP and became a secretary. One of rosa’s most impactful experiences was her refusing to give up her seat on the bus to a white passenger. Because of her actions and the odds being against her,  she got thrown into jail. Because she was being put on trail, the black population put up over 35,000 posters initiating a boycott of buses. This boycott ended 15 days after. As a result of the bus boycotts the court issued an order declaring that bus segration was unconstitutional. Rosa parks has inspired many and to this day the things she fought for has in impact on all of us.', 'MLK': 'MLK Information', 'Hariet Tubman': 'Hariet Tubman Information', 'Sojourner Truth': 'Sojourner Truth Information', 'Malcolm X': 'Malcolm X Information'}
 
 variable = StringVar(root)
 variable.set(options[0])
